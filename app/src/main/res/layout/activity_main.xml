@@ -15,6 +15,34 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:ignore="MissingConstraints" />
 
+    <EditText
+        android:id="@+id/tv_buscar"
+        android:layout_width="240dp"
+        android:layout_height="35dp"
+        android:background="@drawable/fundo_edit_text"
+        android:hint="Pesquise o contato"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_search"
+        tools:layout_editor_absoluteX="99dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_search"
+        app:fabSize="normal"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_add"
+        android:backgroundTint="#2196F3" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_add"
         app:fabSize="normal"

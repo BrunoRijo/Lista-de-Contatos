@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable/fundo_botao_add.xml" value="0.28072916666666664" />
         <entry key="app/src/main/res/drawable/fundo_edit_text.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.21574074074074073" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/layout/activity_adicionar_contato.xml" value="0.19157608695652173" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.26132246376811596" />
       </map>

@@ -16,6 +16,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
+        app:flow_horizontalAlign="center"
         android:text="Criar Contato"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -32,7 +33,7 @@
         android:layout_height="30dp"
         android:layout_margin="16dp"
         android:background="@drawable/fundo_edit_text"
-        android:hint="Insira o nome do contato"
+        android:hint="  Insira o nome do contato"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titlecontato" />
@@ -45,13 +46,13 @@
         android:layout_margin="16dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/fundo_edit_text"
-        android:hint="(00) 00000 - 0000"
+        android:hint="  (00) 00000 - 0000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nomeEdit" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_salvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
